@@ -1,0 +1,6 @@
+{
+    "name": "Testcoin Platinum",
+    "symbol": "TTP",
+    "algorithm": "equihash",
+    "txfee": 0
+}

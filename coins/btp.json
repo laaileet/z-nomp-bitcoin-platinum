@@ -1,0 +1,6 @@
+{
+    "name": "Bitcoin Platinum",
+    "symbol": "BTP",
+    "algorithm": "equihash",
+    "txfee": 0
+}
