@@ -1,6 +1,6 @@
 # Zcash® and Zclassic - Node Open Mining Portal
 
-**[Click here for the official - Zcash® Zclassic, Bitcoin Gold Stratum Mining Pool Installation Guide](https://zdeveloper.org/wiki:z-nomp_install)**
+**[Click here for the official - Zcash® Zclassic, Bitcoin Platinum Stratum Mining Pool Installation Guide](https://zdeveloper.org/wiki:z-nomp_install)**
 
 This is a Equihash mining pool based off of Node Open Mining Portal.
 
@@ -12,7 +12,7 @@ Donations for development are greatly appreciated!
 This is beta software. All of the following are things that can change and break an existing Z-NOMP setup: functionality of any feature, structure of configuration files and structure of redis data. If you use this software in production then *DO NOT* pull new code straight into production usage because it can and often will break your setup and require you to tweak things like config files or redis data. *Only tagged releases are considered stable.*
 
 #### Paid Solution
-Usage of this software requires abilities with sysadmin, database admin, coin daemons, and sometimes a bit of programming. Running a production pool can literally be more work than a full-time job. 
+Usage of this software requires abilities with sysadmin, database admin, coin daemons, and sometimes a bit of programming. Running a production pool can literally be more work than a full-time job.
 
 
 ### Community / Support
@@ -21,21 +21,9 @@ IRC
 
 If your pool uses Z-NOMP let us know and we will list your website here.
 
-### Some pools using Z-NOMP or node-stratum-module:
+### Some pools using Z-NOMP-Platinum or node-stratum-module:
 
-http://pool.gold - Bitcoin Gold Pool
-
-https://pool.cryptobroker.io/zcl Running MPOS and 0.5% of the fee goes to the Zclassic donation fund! 200+ blocks have been found as well! 
-
-http://luckpool.org Zcash Pool with Custom Frontend w/Miner's Jackpot
-
-http://zclmine.com/ Custom frontend
-
-http://zclassic.miningspeed.com Custom frontend and 0% fee
-
-https://zpool.it 0.5% fee
-
-http://miningpool.io/
+Add your service!
 
 Usage
 =====
@@ -82,8 +70,8 @@ Clone the repository and run `npm update` for all the dependencies to be install
 sudo apt-get install build-essential libsodium-dev npm
 sudo npm install n -g
 sudo n stable
-git clone https://github.com/poolgold/z-nomp-bitcoin-gold.git z-nomp-bitcoin-gold
-cd z-nomp-bitcoin-gold
+git clone https://github.com/poolplatinum/z-nomp-bitcoin-platinum.git z-nomp-bitcoin-platinum
+cd z-nomp-bitcoin-platinum
 npm update
 npm install
 ```
@@ -95,9 +83,9 @@ example fields to fit your setup.
 ```
 Please Note that: 1 Difficulty is actually 8192, 0.125 Difficulty is actually 1024.
 
-Whenever a miner submits a share, the pool counts the difficulty and keeps adding them as the shares. 
+Whenever a miner submits a share, the pool counts the difficulty and keeps adding them as the shares.
 
-ie: Miner 1 mines at 0.1 difficulty and finds 10 shares, the pool sees it as 1 share. Miner 2 mines at 0.5 difficulty and finds 5 shares, the pool sees it as 2.5 shares. 
+ie: Miner 1 mines at 0.1 difficulty and finds 10 shares, the pool sees it as 1 share. Miner 2 mines at 0.5 difficulty and finds 5 shares, the pool sees it as 2.5 shares.
 ```
 
 
@@ -124,10 +112,10 @@ npm start
 
 ###### Optional enhancements for your awesome new mining pool server setup:
 * Use something like [forever](https://github.com/nodejitsu/forever) to keep the node script running
-in case the master process crashes. 
+in case the master process crashes.
 * Use something like [redis-commander](https://github.com/joeferner/redis-commander) to have a nice GUI
 for exploring your redis database.
-* Use something like [logrotator](http://www.thegeekstuff.com/2010/07/logrotate-examples/) to rotate log 
+* Use something like [logrotator](http://www.thegeekstuff.com/2010/07/logrotate-examples/) to rotate log
 output from Z-NOMP.
 * Use [New Relic](http://newrelic.com/) to monitor your Z-NOMP instance and server performance.
 
