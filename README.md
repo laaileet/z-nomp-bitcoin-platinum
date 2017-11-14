@@ -133,6 +133,7 @@ Credits
 -------
 ### Z-NOMP-Bitcoin-Platinum
 * [wjcloud](https://github.com/wjcloud)
+* [chalkman](https://github.com/chalkman)
 
 ### Z-NOMP
 * [Joshua Yabut / movrcx](https://github.com/joshuayabut)

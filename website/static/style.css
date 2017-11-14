@@ -3,7 +3,7 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"], .pure-g-r [c
 }
 
 html{
-    background: #2d2d2d;
+    background: white;
     overflow-y: scroll;
 }
 
@@ -28,12 +28,12 @@ header > .home-menu > a.pure-menu-heading, header > .home-menu > ul, header > .h
 }
 
 header > .home-menu > a.pure-menu-heading{
-    color: white;
+    color: black;
     font-size: 1.5em;
 }
 
 header > .home-menu > ul > li > a{
-    color: #ced4d9;
+    color: #5b5e61;
 }
 
 header > .home-menu > ul > li > a:hover, header > .home-menu > ul > li > a:focus{
@@ -41,7 +41,7 @@ header > .home-menu > ul > li > a:hover, header > .home-menu > ul > li > a:focus
 }
 
 header > .home-menu > ul > li > a:hover, header > .home-menu > ul > li.pure-menu-selected > a{
-    color: white;
+    color: black;
 }
 
 main{
@@ -51,7 +51,7 @@ main{
 
 footer{
     text-align: center;
-    color: #b3b3b3;
+    color: black;
     text-decoration: none;
     font-size: 0.8em;
     padding: 15px;
@@ -59,7 +59,7 @@ footer{
 }
 
 footer a{
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 
