@@ -1,4 +1,4 @@
-# Zcash® and Zclassic - Node Open Mining Portal
+# BitcoinPlatinum - Node Open Mining Portal
 
 **[Click here for the official - Zcash® Zclassic, Bitcoin Platinum Stratum Mining Pool Installation Guide](https://zdeveloper.org/wiki:z-nomp_install)**
 
@@ -95,7 +95,7 @@ ie: Miner 1 mines at 0.1 difficulty and finds 10 shares, the pool sees it as 1 s
 ```
 node [path to cli.js] [coin name in config] [block hash symbol]
 ```
-Example: inside `zclassic.conf` add the line
+Example: inside `btp.conf` add the line
 ```
 blocknotify=node /home/user/z-nomp/scripts/cli.js blocknotify zclassic %s
 ```
@@ -131,6 +131,9 @@ the `node-stratum-pool` and `node-multi-hashing` modules, and any config files t
 
 Credits
 -------
+### Z-NOMP-Bitcoin-Platinum
+* [wjcloud](https://github.com/wjcloud)
+
 ### Z-NOMP
 * [Joshua Yabut / movrcx](https://github.com/joshuayabut)
 * [Aayan L / anarch3](https://github.com/aayanl)
