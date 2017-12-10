@@ -44,14 +44,32 @@
     "ports": {
         "3857": {
             "tls":false,
-            "diff": 0.05,
-            "varDiff": {
-                "minDiff": 0.04,
-                "maxDiff": 16,
-                "targetTime": 15,
-                "retargetTime": 60,
-                "variancePercent": 30
-            }
+            "diff": 0.5
+        },
+
+        "3858": {
+            "tls":false,
+            "diff": 2
+        },
+
+        "3859": {
+            "tls":false,
+            "diff": 5
+        },
+
+        "3860": {
+            "tls":true,
+            "diff": 0.5
+        },
+
+        "3861": {
+            "tls":true,
+            "diff": 2
+        },
+
+        "3862": {
+            "tls":true,
+            "diff": 5
         }
     },
     

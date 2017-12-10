@@ -1,5 +1,5 @@
 {
-    "enabled": true,
+    "enabled": false,
     "coin": "btp.json",
 
     "address": "",
@@ -42,16 +42,34 @@
     },
 
     "ports": {
-        "3857": {
+        "3957": {
             "tls":false,
-            "diff": 0.05,
-            "varDiff": {
-                "minDiff": 0.04,
-                "maxDiff": 16,
-                "targetTime": 15,
-                "retargetTime": 60,
-                "variancePercent": 30
-            }
+            "diff": 0.5
+        },
+
+        "3958": {
+            "tls":false,
+            "diff": 2
+        },
+
+        "3959": {
+            "tls":false,
+            "diff": 5
+        },
+
+        "3960": {
+            "tls":true,
+            "diff": 0.5
+        },
+
+        "3961": {
+            "tls":true,
+            "diff": 2
+        },
+
+        "3962": {
+            "tls":true,
+            "diff": 5
         }
     },
 
